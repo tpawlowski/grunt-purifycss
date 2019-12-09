@@ -53,7 +53,7 @@ module.exports = function(grunt) {
       },
       goose: {
         src: [
-          'Goose-Windmill/public/app/**/*.html', 
+          'Goose-Windmill/public/app/**/*.html',
           'Goose-Windmill/public/app/**/*.js',
           'Goose-Windmill/public/index.html'
           ],
@@ -70,6 +70,7 @@ module.exports = function(grunt) {
   // These plugins provide necessary tasks.
   grunt.loadNpmTasks('grunt-contrib-jshint');
   grunt.loadNpmTasks('grunt-contrib-clean');
+  grunt.loadNpmTasks('grunt-contrib-nodeunit');
 
   // Whenever the "test" task is run, first clean the "tmp" dir, then run this
   // plugin's task(s), then test the result.
