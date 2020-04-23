@@ -51,6 +51,6 @@
   ],
   "dependencies": {
     "glob": "^7.1.6",
-    "purify-css": "github:tpawlowski/purifycss#master"
+    "purify-css": "github:tpawlowski/purifycss#248acce"
   }
 }
